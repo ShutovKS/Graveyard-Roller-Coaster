@@ -1,13 +1,12 @@
 using UnityEngine;
 using PathCreation;
-using UnityEngine.Serialization;
 
 public class MoveAlongWaypoints : MonoBehaviour
 {
     private Transform _transform;
 
     [SerializeField] private PathCreator pathCreator;
-    [SerializeField] private float speedDefault = 5;
+    [SerializeField] private float speedDefault;
     private float _speed;
     private float _distanceTravelled;
 
@@ -24,8 +23,8 @@ public class MoveAlongWaypoints : MonoBehaviour
         _transform.rotation = pathCreator.path.GetRotationAtDistance(_distanceTravelled);
     }
 
-    public void ChangeSpeed(float newSpeed)
+    public void SetAccelerationForSpeed(float accelerationSpeed)
     {
-        _speed *= 1 + newSpeed / 100;
+        _speed = speedDefault * (accelerationSpeed <= 0 ? 1 : accelerationSpeed);
     }
 }
