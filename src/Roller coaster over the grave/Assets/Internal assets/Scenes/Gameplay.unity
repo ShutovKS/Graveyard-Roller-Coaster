@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.36862746, g: 0.4666667, b: 0.6, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 0.716
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 410087040}
-  m_IndirectSpecularColor: {r: 0.06773205, g: 0.016926143, b: 0.0005486503, a: 0.716}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.716}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -1619,9 +1615,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109419672}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.27058825, g: 0.80392164, b: 0.9725491, a: 1}
   m_Intensity: 0.09
   m_Range: 0.28
@@ -3731,9 +3726,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220463096}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.87843144, g: 0.9725491, b: 0.27058825, a: 1}
   m_Intensity: 0.09
   m_Range: 0.28
@@ -3933,9 +3927,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237951338}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.87843144, g: 0.9725491, b: 0.27058825, a: 1}
   m_Intensity: 0.09
   m_Range: 0.28
@@ -5414,9 +5407,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317015528}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.27058825, g: 0.8039216, b: 0.972549, a: 1}
   m_Intensity: 0.09
   m_Range: 0.44
@@ -5869,9 +5861,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328853242}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 0
-  m_Shape: 0
   m_Color: {r: 0.27058825, g: 0.8039216, b: 0.972549, a: 1}
   m_Intensity: 11.28
   m_Range: 5.1
@@ -6289,9 +6280,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337882439}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.27058825, g: 0.80392164, b: 0.9725491, a: 1}
   m_Intensity: 0.68
   m_Range: 1.53
@@ -7588,9 +7578,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 1
-  m_Shape: 0
   m_Color: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
   m_Intensity: 4.03
   m_Range: 10
@@ -8511,9 +8500,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450451712}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.87843144, g: 0.9725491, b: 0.27058825, a: 1}
   m_Intensity: 0.09
   m_Range: 0.28
@@ -9133,9 +9121,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484456753}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.87843144, g: 0.9725491, b: 0.27058825, a: 1}
   m_Intensity: 0.09
   m_Range: 0.28
@@ -10228,9 +10215,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540542935}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.87843144, g: 0.9725491, b: 0.27058825, a: 1}
   m_Intensity: 0.09
   m_Range: 0.28
@@ -11025,9 +11011,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599637266}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.87843144, g: 0.9725491, b: 0.27058825, a: 1}
   m_Intensity: 0.09
   m_Range: 0.28
@@ -12113,9 +12098,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 679414702}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 0
-  m_Shape: 0
   m_Color: {r: 0.27058825, g: 0.8039216, b: 0.972549, a: 1}
   m_Intensity: 11.28
   m_Range: 5.1
@@ -15418,9 +15402,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842667888}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 0
-  m_Shape: 0
   m_Color: {r: 0.27058825, g: 0.8039216, b: 0.972549, a: 1}
   m_Intensity: 11.28
   m_Range: 5.1
@@ -17252,9 +17235,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902903471}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.27058825, g: 0.80392164, b: 0.9725491, a: 1}
   m_Intensity: 0.09
   m_Range: 0.28
@@ -20185,9 +20167,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006292189}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 0
-  m_Shape: 0
   m_Color: {r: 0.27058825, g: 0.8039216, b: 0.972549, a: 1}
   m_Intensity: 10
   m_Range: 5.1
@@ -20639,9 +20620,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044044903}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 0
-  m_Shape: 0
   m_Color: {r: 0.56078434, g: 0.9803922, b: 0.41960788, a: 1}
   m_Intensity: 18
   m_Range: 4.1
@@ -20861,9 +20841,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049178691}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.87843144, g: 0.9725491, b: 0.27058825, a: 1}
   m_Intensity: 0.09
   m_Range: 0.28
@@ -21515,9 +21494,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089427082}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.87843144, g: 0.9725491, b: 0.27058825, a: 1}
   m_Intensity: 0.09
   m_Range: 0.28
@@ -25018,6 +24996,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b02cdb5e09d28db4091713cec2ddec16, type: 3}
+  m_Resource: {fileID: 8300000, guid: b02cdb5e09d28db4091713cec2ddec16, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
@@ -27445,9 +27424,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397449561}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 0
-  m_Shape: 0
   m_Color: {r: 0.56078434, g: 0.9803922, b: 0.41960788, a: 1}
   m_Intensity: 18
   m_Range: 4.1
@@ -29874,6 +29852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1527139605}
+  - component: {fileID: 1527139609}
   - component: {fileID: 1527139606}
   - component: {fileID: 1527139607}
   - component: {fileID: 1527139608}
@@ -29962,6 +29941,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1527139609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527139604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b508e16e6d332054fb7de451296af387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1527686239
 GameObject:
   m_ObjectHideFlags: 0
@@ -30066,9 +30057,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528874374}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.56090736, g: 0.9811321, b: 0.42114633, a: 1}
   m_Intensity: 0.59
   m_Range: 1.64
@@ -30653,9 +30643,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592758518}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.87843144, g: 0.9725491, b: 0.27058825, a: 1}
   m_Intensity: 0.09
   m_Range: 0.28
@@ -31571,9 +31560,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648908514}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 0
-  m_Shape: 0
   m_Color: {r: 0.56078434, g: 0.9803922, b: 0.41960788, a: 1}
   m_Intensity: 18
   m_Range: 4.1
@@ -37147,9 +37135,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017327638}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.87843144, g: 0.9725491, b: 0.27058825, a: 1}
   m_Intensity: 0.09
   m_Range: 0.28
@@ -37849,9 +37836,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045417012}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.56090736, g: 0.9811321, b: 0.42114633, a: 1}
   m_Intensity: 0.59
   m_Range: 1.64
