@@ -10,7 +10,6 @@ namespace Internal_assets.Scripts
         {
             if (other.TryGetComponent<MoveAlongWaypoints>(out var moveAlongWaypoints))
             {
-                Debug.Log($"OnTriggerEnter MoveAlongWaypoints");
                 moveAlongWaypoints.SetAccelerationForSpeed(accelerationSpeed);
             }
         } 

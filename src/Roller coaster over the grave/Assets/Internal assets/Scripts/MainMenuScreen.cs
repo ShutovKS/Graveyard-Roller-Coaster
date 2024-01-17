@@ -7,7 +7,7 @@ public class MainMenuScreen : MonoBehaviour
 
     private void Start()
     {
-        _asyncOperationCemetery = SceneManager.LoadSceneAsync("Cemetery");
+        _asyncOperationCemetery = SceneManager.LoadSceneAsync("Gameplay");
         _asyncOperationCemetery.allowSceneActivation = false;
     }
 
