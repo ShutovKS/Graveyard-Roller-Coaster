@@ -54,6 +54,11 @@
 */sysinfo.txt
 *.vsconfig
 
+# Archives and packages
+*.rar
+*.zip
+*.7z
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
